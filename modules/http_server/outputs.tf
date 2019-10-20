@@ -20,4 +20,3 @@ output "instance_name" {
 output "external_ip" {
   value = "${google_compute_instance.http_server.network_interface.0.access_config.0.nat_ip}"
 }
-© 2019 GitHub, Inc.
