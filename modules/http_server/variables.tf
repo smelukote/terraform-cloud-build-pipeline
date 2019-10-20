@@ -15,4 +15,3 @@
 
 variable "project" {}
 variable "subnet" {}
-© 2019 GitHub, Inc.
