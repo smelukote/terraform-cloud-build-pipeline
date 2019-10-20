@@ -14,7 +14,7 @@
 
 
 module "vpc" {
-  source  = "https://github.com/smelukote/terraform-google-network.git"
+  source  = "git::https://github.com/smelukote/terraform-google-network.git"
   version = "0.6.0"
 
   project_id   = "${var.project}"

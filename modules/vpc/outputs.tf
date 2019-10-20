@@ -20,4 +20,3 @@ output "network" {
 output "subnet" {
   value = "${element(module.vpc.subnets_names, 0)}"
 }
-© 2019 GitHub, Inc.
