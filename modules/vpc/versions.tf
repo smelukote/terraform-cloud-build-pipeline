@@ -16,4 +16,3 @@
 terraform {
   required_version = "~> 0.11.0"
 }
-© 2019 GitHub, Inc.
